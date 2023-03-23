@@ -1,0 +1,41 @@
+@keyframes moveInLeft {
+  /* 设置动画播放期间会发生的任意事情 */
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  80% {
+    transform: translateX(10px); /* 向右偏移10px, 制造回弹效果 */
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  80% {
+    transform: translateX(-10px); /* 向左偏移10px, 制造回弹效果 */
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInButtom {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
